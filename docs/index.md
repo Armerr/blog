@@ -1,32 +1,30 @@
 ---
+title: Bedshaped
 layout: home
 
 hero:
-  name: 名称
-  text: 文本
-  tagline: 标语
+  name: Bedshaped的树洞
+  text: 一念缘起 一步禅空
+  tagline:
+  image:
+    src: /logo.jpg
+    alt: logo
   actions:
     - theme: brand
-      text: 开始
-      link: /guide/what-is-vitepress
+      text: 开始学习 →
+      link: /articles/basic/index
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: 获取项目
+      link: /intent/index
 
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 知识点分享
+    details:
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: 算法分享
+    details:
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 其他分享
+    details:
 ---
-<style>
-    :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
-}
-</style>

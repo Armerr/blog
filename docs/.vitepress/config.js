@@ -1,29 +1,25 @@
+const path = require("path");
+
 module.exports = {
-  title: '标题',
-  base: 'Blogs',
-  description: 'Just playing around.',
+  title: "Bedshaped",
+  description: "Front end project and tips sharing",
+  lang: "cn-ZH",
+  base: "/",
   themeConfig: {
+    siteTitle: "Bedshaped",
+    logo: "/logo.jpg",
+    //顶部
     nav: [
       {
-        text: '关于',
+        text: "前端",
         items: [
-          { text: '关于页面1', link: '/about/about1' },
-          { text: '关于页面2', link: '/about/about2/' }
-        ]
-      }
+          { text: "基础", link: "/articles/basic/index" },
+        ],
+      },
+      { text: "算法", link: "/leetcode/LEET_CODE题解/47. 全排列 II" },
+      { text: "项目", link: "/intent/" },
     ],
-    // sideber以对象的形式配置的话每个sidebar都是独立的 如果以数组的形式配置那么侧边栏是公共的 进入其他子页面都可以看到
-    sidebar: {
-      '/about/': [
-        {
-          text: '关于侧边栏',
-          items: [
-            { text: '关于1', link: '/about/about1/' },
-            { text: '关于2', link: '/about/about2/' }
-          ]
-        },
-
-      ]
-    }
-  }
-}
+    //社交
+    socialLinks: [{ icon: "github", link: "https://github.com/Armerr" }],
+  },
+};
