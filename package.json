@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.45"
+  },
+  "dependencies": {
+    "sass": "^1.58.0",
+    "vitepress-theme-sakura": "^0.4.2"
   }
 }
