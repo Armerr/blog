@@ -3,7 +3,7 @@ title: Bedshaped
 layout: home
 
 hero:
-  name: Bedshaped的树洞
+  name: Bedshaped
   text: 一念缘起 一步禅空
   tagline:
   image:
