@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "docs:dev": "vitepress dev docs --host 0.0.0.0",
-    "docs:build": "vitepress build && node docs/.vitepress/genFeed.js",
-    "docs:serve": "vitepress serve docs --host 0.0.0.0"
+    "dev": "vitepress dev",
+    "build": "vitepress build && node ./docs/.vitepress/genFeed.js",
+    "serve": "vitepress serve"
   },
-  "name": "vitepress-theme-sakura",
+  "name": "Armerr",
   "version": "0.4.2",
   "description": "",
-  "main": ".vitepress/theme/Layout.vue",
+  "main": "./docs/.vitepress/theme/Layout.vue",
   "keywords": [
     "vitepress"
   ],

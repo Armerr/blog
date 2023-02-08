@@ -9,8 +9,15 @@ export interface ThemeConfig {
   waline?: string,
 }
 export default defineConfigWithTheme<ThemeConfig>({
+  title: 'armerr',
+  // 网站描述
+  description: 'armerr with vitePress',
+  head: [
+        // 添加图标
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
   lang: 'zh-CN',
-  base: '/blog/',
+  base: '/',
   // from https://codybontecou.com/tailwindcss-with-vitepress.html
   head: [
     // 字体支持
@@ -32,10 +39,9 @@ export default defineConfigWithTheme<ThemeConfig>({
     }
   },
   themeConfig: {
-    name: 'Bedshaped',
+    name: 'flaribbit',
     // cover: 'https://tva3.sinaimg.cn/large/0072Vf1pgy1foxk6pmjkjj31kw0w0b0v.jpg',
     cover: 'https://img.maitao.com/9bcb3f42-5c0d-4e87-b0db-7fb16b3f0e28.jpg',
-    // cover: './assets/2.jpg',
     social: [
       { icon: 'fa-github', url: 'https://github.com' },
       { icon: 'fa-twitter', url: 'https://twitter.com' },
