@@ -12,10 +12,6 @@ export default defineConfigWithTheme<ThemeConfig>({
   title: 'armerr',
   // 网站描述
   description: 'armerr with vitePress',
-  head: [
-        // 添加图标
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
-    ],
   lang: 'zh-CN',
   base: '/',
   // from https://codybontecou.com/tailwindcss-with-vitepress.html
