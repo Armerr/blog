@@ -29,7 +29,10 @@ const base = useData().site.value.base
 interface MenuItem { icon: string, name: string, url: string }
 const menu: MenuItem[] = [
   { icon: 'fa-home', name: '首页', url: '' },
-  { icon: 'fa-tag', name: '标签', url: 'tags/' },
+  { icon: 'fa-hand-rock-o', name: '技术', url: 'tech/' },
+  { icon: 'fa-hand-paper-o', name: '哲学', url: 'philosophy/' },
+  { icon: 'fa-hand-peace-o', name: '宗教', url: 'religion/' },
+  { icon: 'fa-hand-pointer-o', name: '艺术', url: 'art/' },
   { icon: 'fa-leaf', name: '关于', url: 'readme.html' }
 ]
 </script>

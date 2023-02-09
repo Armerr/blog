@@ -24,7 +24,7 @@
 import { useData } from 'vitepress'
 import GlitchText from './GlitchText.vue'
 const themeConfig = useData().theme.value
-const hello = themeConfig.hello || '你好，안영하세요!'
+const hello = themeConfig.hello || '你好!'
 const motto = themeConfig.motto || '性痴则其志凝。故书痴者文必工，艺痴者技必良。世之落拓而无成者，皆自谓不痴者也。'
 const social = themeConfig.social || []
 const cover = themeConfig.cover

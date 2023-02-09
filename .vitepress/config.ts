@@ -11,7 +11,7 @@ export interface ThemeConfig {
 export default defineConfigWithTheme<ThemeConfig>({
   title: 'armerr',
   // 网站描述
-  description: 'armerr with vitePress',
+  description: "TO BE OR NOT TO BE,THAT'S A PROBLEM",
   lang: 'zh-CN',
   base: '/',
   // from https://codybontecou.com/tailwindcss-with-vitepress.html
@@ -39,9 +39,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     // cover: 'https://tva3.sinaimg.cn/large/0072Vf1pgy1foxk6pmjkjj31kw0w0b0v.jpg',
     cover: 'https://img.maitao.com/9bcb3f42-5c0d-4e87-b0db-7fb16b3f0e28.jpg',
     social: [
-      { icon: 'fa-github', url: 'https://github.com' },
-      { icon: 'fa-twitter', url: 'https://twitter.com' },
-      { icon: 'fa-weibo', url: 'https://weibo.com' },
+      { icon: 'fa-github', url: 'https://github.com/Armerr' }
     ],
     waline: 'https://blog-waline-e7jqcxb9s-flaribbit.vercel.app/',
   }
